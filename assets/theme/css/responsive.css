@@ -1,0 +1,20 @@
+/*responsive player & channels*/
+
+@media screen and (max-width: 980px) {
+.player{width: 100%; height: 70vh;}
+.channels {height: 30vh; width: 100%;  padding: 2rem 0 2rem 0; display: block}
+#list {height: 30vh; width: 100%;  padding: 2rem 0 2rem 0;}
+#contents-player-controls {display: none;}
+}
+@media screen and (max-width: 650px) {
+.player{width: 100%; height: 70vh;}
+.channels {height: 30vh; width: 100%;  padding: 2rem 0 2rem 0; display: block}
+#list {height: 30vh; width: 100%;  padding: 2rem 0 2rem 0;}
+#contents-player-controls {display: none;}
+}
+@media screen and (max-width: 480px) {
+.player{width: 100%; height: 70vh;}
+.channels {height: 30vh; width: 100%;  padding: 2rem 0 2rem 0; display: block}
+#list {height: 30vh; width: 100%;  padding: 2rem 0 2rem 0;}
+#contents-player-controls {display: none;}
+}

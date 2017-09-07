@@ -1,0 +1,645 @@
+/*@import url(https://fonts.googleapis.com/css?family=Ubuntu:300);*/
+@font-face {
+    font-family: Comfortaa; /* Имя шрифта */
+    src: url(assets/fonts/Comfortaa-Light.ttf); /* Путь к файлу со шрифтом */
+	src: local('Comfortaa-Light');
+	font-family: Ubuntu; /* Имя шрифта */
+    src: url(assets/fonts/Ubuntu.ttf); /* Путь к файлу со шрифтом */
+	src: local('Ubuntu');
+	}
+body,
+input,
+textarea,
+.mbr-company .list-group-text {
+  font-family: 'Ubuntu', sans-serif;
+}
+.mbr-footer-content li,
+.mbr-footer .mbr-contacts li {
+  font-family: 'Ubuntu', sans-serif;
+}
+.btn,
+.alert,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.mbr-figure .mbr-figure-caption,
+.mbr-gallery-title,
+.mbr-map [data-state-details],
+.mbr-price {
+  font-family: 'Comfortaa', sans-serif;
+}
+.mbr-footer-content h1,
+.mbr-footer .mbr-contacts h1,
+.mbr-footer-content h2,
+.mbr-footer .mbr-contacts h2,
+.mbr-footer-content h3,
+.mbr-footer .mbr-contacts h3,
+.mbr-footer-content h4,
+.mbr-footer .mbr-contacts h4,
+.mbr-footer-content p strong,
+.mbr-footer .mbr-contacts p strong,
+.mbr-footer-content strong,
+.mbr-footer .mbr-contacts strong {
+  font-family: 'Ubuntu', sans-serif;
+}
+.btn-sm,
+.lead a,
+.lead blockquote,
+.mbr-section-subtitle,
+.mbr-section-hero .mbr-section-lead,
+.mbr-cards .card-subtitle,
+.mbr-testimonial .card-block {
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+}
+.mbr-author-name {
+  font-family: 'Ubuntu', sans-serif;
+}
+.mbr-author-desc {
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+}
+.mbr-plan-title {
+  font-family: 'Ubuntu', sans-serif;
+}
+.mbr-plan-subtitle,
+.mbr-plan-price-desc {
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+}
+.bg-primary {
+  background-color: #8a4da0 !important;
+}
+.bg-success {
+  background-color: #90a878 !important;
+}
+.bg-info {
+  background-color: #7e9b9f !important;
+}
+.bg-warning {
+  background-color: #f3c649 !important;
+}
+.bg-danger {
+  background-color: #f28281 !important;
+}
+.btn-primary {
+  background-color: #8a4da0;
+  border-color: #8a4da0;
+  color: #ffffff;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active {
+  color: #ffffff;
+  background-color: #c54ecd;
+  border-color: #c54ecd;
+}
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #ffffff !important;
+  background-color: #8a4da0 !important;
+  border-color: #8a4da0 !important;
+}
+.btn-secondary {
+  background-color: #bfcecb;
+  border-color: #bfcecb;
+  color: #ffffff;
+}
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary:active,
+.btn-secondary.active {
+  color: #ffffff;
+  background-color: #94ada8;
+  border-color: #94ada8;
+}
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+  color: #ffffff !important;
+  background-color: #94ada8 !important;
+  border-color: #94ada8 !important;
+}
+.btn-info {
+  background-color: #7e9b9f;
+  border-color: #7e9b9f;
+  color: #ffffff;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info:active,
+.btn-info.active {
+  color: #ffffff;
+  background-color: #597478;
+  border-color: #597478;
+}
+.btn-info.disabled,
+.btn-info:disabled {
+  color: #ffffff !important;
+  background-color: #597478 !important;
+  border-color: #597478 !important;
+}
+.btn-success {
+  background-color: #90a878;
+  border-color: #90a878;
+  color: #ffffff;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.focus,
+.btn-success:active,
+.btn-success.active {
+  color: #ffffff;
+  background-color: #6a8153;
+  border-color: #6a8153;
+}
+.btn-success.disabled,
+.btn-success:disabled {
+  color: #ffffff !important;
+  background-color: #6a8153 !important;
+  border-color: #6a8153 !important;
+}
+.btn-warning {
+  background-color: #f3c649;
+  border-color: #f3c649;
+  color: #ffffff;
+}
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning.focus,
+.btn-warning:active,
+.btn-warning.active {
+  color: #ffffff;
+  background-color: #e1a90f;
+  border-color: #e1a90f;
+}
+.btn-warning.disabled,
+.btn-warning:disabled {
+  color: #ffffff !important;
+  background-color: #e1a90f !important;
+  border-color: #e1a90f !important;
+}
+.btn-danger {
+  background-color: transparent;
+  border-color: #ef7214;
+  color: #ef7214;
+}
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-danger:active,
+.btn-danger.active {
+  color: #ffffff;
+  background-color: #00bdfe;
+  border-color: #00bdfe;
+}
+.btn-danger.disabled,
+.btn-danger:disabled {
+  color: #ffffff !important;
+  background-color: #ef7214 !important;
+  border-color: #ef7214 !important;
+}
+.btn-primary-outline {
+  background: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.btn-primary-outline:hover,
+.btn-primary-outline:focus,
+.btn-primary-outline.focus,
+.btn-primary-outline:active,
+.btn-primary-outline.active {
+  color: #ffffff;
+  background-color: #00bdfe;
+  border-color: #ffffff;
+}
+.btn-primary-outline.disabled,
+.btn-primary-outline:disabled {
+  color: #ffffff !important;
+  background-color: #8a4da0 !important;
+  border-color: #8a4da0 !important;
+}
+.btn-secondary-outline {
+  background: none;
+  border-color: #85a29c;
+  color: #85a29c;
+}
+.btn-secondary-outline:hover,
+.btn-secondary-outline:focus,
+.btn-secondary-outline.focus,
+.btn-secondary-outline:active,
+.btn-secondary-outline.active {
+  color: #ffffff;
+  background-color: #bfcecb;
+  border-color: #bfcecb;
+}
+.btn-secondary-outline.disabled,
+.btn-secondary-outline:disabled {
+  color: #ffffff !important;
+  background-color: #bfcecb !important;
+  border-color: #bfcecb !important;
+}
+.btn-info-outline {
+  background: none;
+  border-color: #4e6669;
+  color: #4e6669;
+}
+.btn-info-outline:hover,
+.btn-info-outline:focus,
+.btn-info-outline.focus,
+.btn-info-outline:active,
+.btn-info-outline.active {
+  color: #ffffff;
+  background-color: #7e9b9f;
+  border-color: #7e9b9f;
+}
+.btn-info-outline.disabled,
+.btn-info-outline:disabled {
+  color: #ffffff !important;
+  background-color: #7e9b9f !important;
+  border-color: #7e9b9f !important;
+}
+.btn-success-outline {
+  background: none;
+  border-color: #5d7149;
+  color: #5d7149;
+}
+.btn-success-outline:hover,
+.btn-success-outline:focus,
+.btn-success-outline.focus,
+.btn-success-outline:active,
+.btn-success-outline.active {
+  color: #ffffff;
+  background-color: #90a878;
+  border-color: #90a878;
+}
+.btn-success-outline.disabled,
+.btn-success-outline:disabled {
+  color: #ffffff !important;
+  background-color: #90a878 !important;
+  border-color: #90a878 !important;
+}
+.btn-warning-outline {
+  background: none;
+  border-color: #c9970d;
+  color: #c9970d;
+}
+.btn-warning-outline:hover,
+.btn-warning-outline:focus,
+.btn-warning-outline.focus,
+.btn-warning-outline:active,
+.btn-warning-outline.active {
+  color: #ffffff;
+  background-color: #f3c649;
+  border-color: #f3c649;
+}
+.btn-warning-outline.disabled,
+.btn-warning-outline:disabled {
+  color: #ffffff !important;
+  background-color: #f3c649 !important;
+  border-color: #f3c649 !important;
+}
+.btn-danger-outline {
+  background: none;
+  border-color: #e82625;
+  color: #e82625;
+}
+.btn-danger-outline:hover,
+.btn-danger-outline:focus,
+.btn-danger-outline.focus,
+.btn-danger-outline:active,
+.btn-danger-outline.active {
+  color: #ffffff;
+  background-color: #f28281;
+  border-color: #f28281;
+}
+.btn-danger-outline.disabled,
+.btn-danger-outline:disabled {
+  color: #ffffff !important;
+  background-color: #f28281 !important;
+  border-color: #f28281 !important;
+}
+.text-primary {
+  color: #8a4da0 !important;
+}
+.text-success {
+  color: #90a878 !important;
+}
+.text-info {
+  color: #7e9b9f !important;
+}
+.text-warning {
+  color: #f3c649 !important;
+}
+.text-danger {
+  color: #f28281 !important;
+}
+.alert-success {
+  background-color: #90a878;
+}
+.alert-info {
+  background-color: #7e9b9f;
+}
+.alert-warning {
+  background-color: #f3c649;
+}
+.alert-danger {
+  background-color: #f28281;
+}
+.btn-social {
+  border-color: #8a4da0;
+}
+.btn-social:hover {
+  background: #8a4da0;
+}
+.mbr-company .list-group-item.active .list-group-text {
+  color: #8a4da0;
+}
+.mbr-footer p a,
+.mbr-footer ul a {
+  color: #8a4da0;
+}
+.mbr-footer-content li::before,
+.mbr-footer .mbr-contacts li::before {
+  background: #8a4da0;
+}
+.mbr-footer-content li a:hover,
+.mbr-footer .mbr-contacts li a:hover {
+  color: #8a4da0;
+}
+.lead a,
+.lead a:hover {
+  color: #8a4da0;
+}
+.lead blockquote {
+  border-color: #8a4da0;
+}
+.mbr-plan-header.bg-primary .mbr-plan-subtitle,
+.mbr-plan-header.bg-primary .mbr-plan-price-desc {
+  color: #fdf3f2;
+}
+.mbr-plan-header.bg-success .mbr-plan-subtitle,
+.mbr-plan-header.bg-success .mbr-plan-price-desc {
+  color: #d0dac6;
+}
+.mbr-plan-header.bg-info .mbr-plan-subtitle,
+.mbr-plan-header.bg-info .mbr-plan-price-desc {
+  color: #c7d4d5;
+}
+.mbr-plan-header.bg-warning .mbr-plan-subtitle,
+.mbr-plan-header.bg-warning .mbr-plan-price-desc {
+  color: #ffffff;
+}
+.mbr-plan-header.bg-danger .mbr-plan-subtitle,
+.mbr-plan-header.bg-danger .mbr-plan-price-desc {
+  color: #ffffff;
+}
+.mbr-small-footer a,
+.mbr-gallery-filter li:hover {
+  color: #8a4da0;
+}
+#menu-0 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-0 .navbar-caption {
+  color: #ffffff;
+}
+#menu-0 .navbar-toggler {
+  color: #ffffff;
+}
+#menu-0 .link,
+#menu-0 .dropdown-item {
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+}
+#menu-0 .link {
+  font-size: 1rem;
+  font-weight: 600;
+}
+#menu-0 .dropdown-item,
+#menu-0 .nav-dropdown-sm .link {
+  font-size: 1.083rem;
+}
+#menu-0 .link:hover,
+#menu-0 .dropdown-item:hover,
+#menu-0 .link:focus,
+#menu-0 .dropdown-item:focus {
+  color: #00bdfe;
+}
+#menu-0 .link[aria-expanded="true"],
+#menu-0 .dropdown-menu {
+  background: #6c3c7e;
+}
+#menu-0 .nav-dropdown-sm .link:focus,
+#menu-0 .nav-dropdown-sm .link:hover,
+#menu-0 .nav-dropdown-sm .dropdown-item:focus,
+#menu-0 .nav-dropdown-sm .dropdown-item:hover {
+  background: transparent;
+}
+#menu-0 .navbar,
+#menu-0 .nav-dropdown-sm,
+#menu-0 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-0 .nav-dropdown-sm .dropdown-menu {
+background-color: rgba(0, 0, 0, 0.7);
+background: rgba(0, 0, 0, 0.7);
+color: rgba(0, 0, 0, 0.7);
+/*background: #21212199; /* Old browsers */
+/*background: -moz-linear-gradient(left,  #db6415 0%, #ffb400 100%); /* FF3.6-15 */
+/*background: -webkit-linear-gradient(left,  #db6415 0%,#ffb400 100%); /* Chrome10-25,Safari5.1-6 */
+/*background: linear-gradient(to right,  #db6415 0%,#ffb400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db6415', endColorstr='#ffb400',GradientType=1 ); /* IE6-9 */
+}
+#menu-0 .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-0 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-0 .bg-color.transparent.opened .link:hover,
+#menu-0 .bg-color.transparent.opened .link:focus {
+  color: #00b3fa;
+}
+#menu-0 .link[aria-expanded="true"],
+#menu-0 .dropdown-item[aria-expanded="true"] {
+  color: transparent;
+}
+#menu-0.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#menu-0 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#menu-0 .close-icon::before,
+#menu-0 .close-icon::after {
+  background-color: #ffffff;
+}
+#menu-0 .btn {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+}
+#header1-1 .mbr-section-lead SPAN {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+}
+#header1-1 .mbr-section-title {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 5.5rem;
+}
+#header3-1 .mbr-section-title,
+#header3-1 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-1 H3 {
+  /*color: #ffffff;*/
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 36px;
+}
+#header3-1 SMALL {
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+#header3-1 SPAN {
+  /*color: #ffffff;*/
+}
+#footer1-2 P {
+  font-family: 'Ubuntu', sans-serif;
+  color: #6c6c6c;
+  text-align: right;
+}
+#features7-0 .card-subtitle {
+  color: #bcbcbc;
+}
+#features7-0 .iconbox {
+  background-color: transparent;
+  border-color: transparent;
+}
+#features7-0 H4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  /*color: #ffffff;*/
+  
+}
+#features7-0 P {
+  font-family: 'Ubuntu', sans-serif;
+  /*color: #ffffff;*/
+}
+#header3-2 .mbr-section-title,
+#header3-2 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-2 H3 {
+  /*font-family: 'Ubuntu', sans-serif;
+  font-size: 46px;*/
+}
+#header3-2 SMALL {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+}
+#header3-5 .mbr-section-title,
+#header3-5 .mbr-section-subtitle {
+  text-align: center;
+}
+#msg-box5-4 .btn {
+  font-size: 15px;
+}
+#msg-box5-4 P {
+  text-align: left;
+}
+
+
+
+#menu-6 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-6 .navbar-caption {
+  color: #ffffff;
+}
+#menu-6 .navbar-toggler {
+  color: #232323;
+}
+#menu-6 .link,
+#menu-6 .dropdown-item {
+  color: #232323;
+  font-family: 'Ubuntu', sans-serif;
+}
+#menu-6 .link {
+  font-size: 1rem;
+  font-weight: 600;
+}
+#menu-6 .dropdown-item,
+#menu-6 .nav-dropdown-sm .link {
+  font-size: 1.083rem;
+}
+#menu-6 .link:hover,
+#menu-6 .dropdown-item:hover,
+#menu-6 .link:focus,
+#menu-6 .dropdown-item:focus {
+  color: #00b3fa;
+}
+#menu-6 .link[aria-expanded="true"],
+#menu-6 .dropdown-menu {
+  background: #6c3c7e;
+}
+#menu-6 .nav-dropdown-sm .link:focus,
+#menu-6 .nav-dropdown-sm .link:hover,
+#menu-6 .nav-dropdown-sm .dropdown-item:focus,
+#menu-6 .nav-dropdown-sm .dropdown-item:hover {
+  /*background: #814896!important;*/
+}
+#menu-6 .navbar,
+#menu-6 .nav-dropdown-sm,
+#menu-6 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-6 .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#menu-6 .bg-color.transparent .link {
+  color: #232323;
+  transition: none;
+}
+#menu-6 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-6 .bg-color.transparent.opened .link:hover,
+#menu-6 .bg-color.transparent.opened .link:focus {
+  color: #fff710;
+}
+#menu-6 .link[aria-expanded="true"],
+#menu-6 .dropdown-item[aria-expanded="true"] {
+  color: #fff710!important;
+}
+#menu-6.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#menu-6 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#menu-6 .close-icon::before,
+#menu-6 .close-icon::after {
+  background-color: #232323;
+}
+#menu-6 .btn {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+}
+#footer1-7 P {
+  font-family: 'Ubuntu', sans-serif;
+  color: #6c6c6c;
+  text-align: right;
+}

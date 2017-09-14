@@ -1,2 +1,2 @@
 # smotri-tv
-IPTV streamming
+IPTV streaming
